@@ -2,6 +2,6 @@
 #!desc=vip
 
 [Script]
-http-response ^https:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId requires-body=1,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/CARROTWeather.js
+Carrot = type=http-response,pattern=^https:\/\/carrotweather\.herokuapp\.com\/parse\/functions\/findSubscriptionsForUserId,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/CARROTWeather.js
 [MITM]
 hostname = carrotweather.herokuapp.com
